@@ -69,7 +69,7 @@ function App() {
 
       <div className="relative z-10">
         <Navbar />
-        <main>
+        <main className="pb-24 md:pb-0">
           <Hero />
           <LiveTicker />
           <About />
