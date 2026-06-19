@@ -1,8 +1,8 @@
-# Yash Chavan — Portfolio
+# Portfolio
 
 A premium, recruiter-focused Full Stack Developer portfolio built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
-> Live demo: [yashchavan.dev](https://yashchavan.dev)
+> Live demo: [Portfolio](https://yashchavan02.vercel.app)
 
 ## ✨ Highlights
 
