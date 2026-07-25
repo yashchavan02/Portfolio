@@ -32,26 +32,26 @@ function App() {
     <>
       <Helmet>
         <html lang="en" />
-        <title>{`${profile.name} — ${profile.role}`}</title>
+        <title>{`${profile.name}`}</title>
         <meta
           name="description"
           content={`${profile.name} is a ${profile.role} based in ${profile.location}. ${profile.tagline}`}
         />
-        <meta property="og:title" content={`${profile.name} — Portfolio`} />
+        <meta property="og:title" content={`${profile.name}`} />
         <meta
           property="og:description"
           content="Full Stack Developer & Backend Engineer portfolio."
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://yashchavan.dev" />
+        <link rel="canonical" href="https://www.yashchavan.me" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Person',
             name: profile.name,
             jobTitle: profile.role,
-            url: 'https://yashchavan.dev',
+            url: 'https://www.yashchavan.me',
             sameAs: [profile.social.linkedin, profile.social.github],
             email: profile.social.email,
             address: {
