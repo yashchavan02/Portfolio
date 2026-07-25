@@ -46,7 +46,7 @@ export function Hero() {
             </span>
           </div>
           <div className="mono text-xs uppercase tracking-widest" style={{ color: 'rgba(240, 236, 228, 0.3)' }}>
-            Portfolio · v3
+            Portfolio
           </div>
         </motion.div>
 
